@@ -1,0 +1,30 @@
+g > circle {
+  fill: #646464;
+}
+g > line {
+  stroke: #646464;
+}
+g > marker {
+  stroke: #646464;
+  fill: #646464;
+}
+g > .selected {
+  stroke: #ff6464;
+  fill: #ff6464;
+}
+g > .selected circle {
+  stroke: #c86464;
+  fill: #c86464;
+}
+g > .selected line {
+  stroke: #ff6464;
+  fill: #ff6464;
+}
+#gridContainer {
+  width: 800px;
+  height: 600px;
+  background: lightgray;
+}
+.draggable {
+  cursor: pointer;
+}

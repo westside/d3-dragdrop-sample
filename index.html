@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>TEST</title>
+<link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <div ng-app="testApp" ng-controller="testController as grid" ng-init="grid.init()">
+    <button ng-click="grid.addObject()">add object</button>
+    <button ng-click="grid.addArrow()">Add arrow</button>
+    <button ng-click="grid.deleteObject()">Delete object</button>
+    <div></div>
+    <svg id="gridContainer"></svg>
+  </div>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js""></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.13/d3.js"></script>
+  <script type="text/javascript" src="app.js"></script>
+  <script type="text/javascript" src="d3.arrow.js"></script>
+</body>
+</html>
